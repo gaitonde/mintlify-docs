@@ -3,37 +3,54 @@ title: Introduction
 description: "Welcome to the home of your new documentation"
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="Hero Dark"
-/>
+## Interactive Flow Diagram
+<div className="p-4 mb-4 text-lg text-gray-700 dark:text-gray-300">
+  Below is an interactive flow diagram demonstrating a simple process flow.
+</div>
 
-## Setting up
+<div className="flow-container bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+  <div className="flex justify-center items-center space-x-4">
+    <div className="px-4 py-2 bg-blue-100 dark:bg-blue-900 rounded-lg">Start</div>
+    <div className="text-gray-500">→</div>
+    <div className="px-4 py-2 bg-green-100 dark:bg-green-900 rounded-lg">Process</div>
+    <div className="text-gray-500">→</div>
+    <div className="px-4 py-2 bg-purple-100 dark:bg-purple-900 rounded-lg">End</div>
+  </div>
+</div>
 
-The first step to world-class documentation is setting up your editing environments.
+## Overview
+<div className="prose dark:prose-dark max-w-none">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</div>
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+  <img
+    className="block dark:hidden rounded-lg shadow-md"
+    src="/images/hero-light.png"
+    alt="Hero Light"
+  />
+  <img
+    className="hidden dark:block rounded-lg shadow-md"
+    src="/images/hero-dark.png"
+    alt="Hero Dark"
+  />
+</div>
+
+## Getting Started
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+    <h3 className="text-xl font-bold mb-2">Edit Your Docs</h3>
+    <p className="text-gray-600 dark:text-gray-300">Get your docs set up locally for easy development</p>
+    <a href="https://mintlify.com/docs/quickstart" className="text-blue-500 hover:text-blue-600 mt-2 inline-block">Learn More →</a>
+  </div>
+
+  <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+    <h3 className="text-xl font-bold mb-2">Preview Changes</h3>
+    <p className="text-gray-600 dark:text-gray-300">Preview your changes before you push to make sure they're perfect</p>
+    <a href="https://mintlify.com/docs/development" className="text-blue-500 hover:text-blue-600 mt-2 inline-block">Learn More →</a>
+  </div>
+</div>
 
 ## Make it yours
 

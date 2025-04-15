@@ -1,24 +1,29 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "TODO: Add name here",
+  "description": "TODO: Add description here",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#0D9373"
   },
   "favicon": "/favicon.svg",
+  "search": {
+    "prompt": "Search docs..."
+  },
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Getting Started",
+        "icon": "book",
+        "description": "Set up your documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "test"
             ]
           },
           {
@@ -35,7 +40,9 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "dropdown": "API Reference",
+        "icon": "brackets-curly",
+        "description": "API documentation and endpoints",
         "groups": [
           {
             "group": "API Documentation",
@@ -83,7 +90,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hixx@mintlify.com"
       }
     ],
     "primary": {
@@ -94,9 +101,19 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
+      "x": "https://google.com",
+      "github": "https://github.com/your-repo",
       "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude"]
+  },
+  "seo": {
+    "metatags": {
+      "og:site_name": "TODO: Add site name",
+      "og:title": "TODO: Add title",
+      "og:description": "TODO: Add description"
     }
   }
 }
